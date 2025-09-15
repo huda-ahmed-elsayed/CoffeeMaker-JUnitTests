@@ -39,7 +39,7 @@ CoffeeMaker-JUnit/
 │ │ └── RecipeException.java
 │ │
 │ └── test/java/edu/ncsu/csc326/coffeemaker/
-│ └── CoffeeMakerTest.java
+│ └──  CoffeeMakerTest.java
 
 yaml
 Copy code
