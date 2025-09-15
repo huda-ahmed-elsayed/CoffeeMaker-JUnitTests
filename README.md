@@ -25,10 +25,7 @@ CoffeeMaker-JUnit is a Java-based application that simulates a coffee maker mach
   - `coffeemaker.*` – Java package containing the CoffeeMaker source code.
   - `coffeemaker.exceptions.*` – Java package containing the CoffeeMaker Exception source code.  
 - `src/test/java` – Contains JUnit test code.  
-  - `coffeemakertests.CoffeeMakerTest` – JUnit tests for the CoffeeMaker class (update as needed).  
-     
-yaml 
-Copy code 
+  - `coffeemakertests.CoffeeMakerTest` – JUnit tests for the CoffeeMaker class (update as needed).   
 
 > **Note:** The build/ directory is generated during build and testing. It is not included in version control.
 
