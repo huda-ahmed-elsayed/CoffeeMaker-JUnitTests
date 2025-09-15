@@ -17,34 +17,39 @@ This project was developed as part of a software engineering course and demonstr
 ---
 
 ## Project Structure
+
 CoffeeMaker-JUnit/
-│
-├── build.gradle # Gradle build file for compilation, testing, and coverage
-├── gradlew # Gradle wrapper for UNIX/Linux
-├── gradlew.bat # Gradle wrapper for Windows
-├── README.md # Project documentation
+├── build.gradle                # Gradle build file for compilation, testing, and coverage
+├── gradlew                     # Gradle wrapper for UNIX/Linux
+├── gradlew.bat                 # Gradle wrapper for Windows
+├── README.md                   # Project documentation
 ├── Requirements-CoffeeMaker.pdf
 ├── ClassDiagram-CoffeeMaker.pdf
 ├── SequenceDiagram-CoffeeMaker.pdf
-│
-├── src/
-│ ├── main/java/edu/ncsu/csc326/coffeemaker/
-│ │ ├── CoffeeMaker.java
-│ │ ├── Main.java
-│ │ ├── Recipe.java
-│ │ ├── RecipeBook.java
-│ │ ├── Inventory.java
-│ │ └── exceptions/
-│ │ ├── InventoryException.java
-│ │ └── RecipeException.java
-│ │
-│ └── test/java/edu/ncsu/csc326/coffeemaker/
-│ └──  CoffeeMakerTest.java
+└── src
+    ├── main
+    │   └── java
+    │       └── edu
+    │           └── ncsu
+    │               └── csc326
+    │                   └── coffeemaker
+    │                       ├── CoffeeMaker.java
+    │                       ├── Main.java
+    │                       ├── Recipe.java
+    │                       ├── RecipeBook.java
+    │                       ├── Inventory.java
+    │                       └── exceptions
+    │                           ├── InventoryException.java
+    │                           └── RecipeException.java
+    └── test
+        └── java
+            └── edu
+                └── ncsu
+                    └── csc326
+                        └── coffeemaker
+                            └── CoffeeMakerTest.java
 
-yaml
-Copy code
-
-> **Note:** The `build/` directory is generated during build and testing. It is not included in version control.
+> **Note:** The `build/` directory is generated during build and testing and is not included in version control.
 
 ---
 
