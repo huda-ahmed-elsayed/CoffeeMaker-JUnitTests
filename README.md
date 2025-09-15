@@ -19,10 +19,10 @@ This project was developed as part of a software engineering course and demonstr
 ## Project Structure
 
 CoffeeMaker-JUnit/
-├── build.gradle                # Gradle build file for compilation, testing, and coverage
-├── gradlew                     # Gradle wrapper for UNIX/Linux
-├── gradlew.bat                 # Gradle wrapper for Windows
-├── README.md                   # Project documentation
+├── build.gradle                 # Gradle build file for compilation, testing, and coverage
+├── gradlew                      # Gradle wrapper for UNIX/Linux
+├── gradlew.bat                  # Gradle wrapper for Windows
+├── README.md                    # Project documentation
 ├── Requirements-CoffeeMaker.pdf
 ├── ClassDiagram-CoffeeMaker.pdf
 ├── SequenceDiagram-CoffeeMaker.pdf
@@ -49,7 +49,8 @@ CoffeeMaker-JUnit/
                         └── coffeemaker
                             └── CoffeeMakerTest.java
 
-> **Note:** The `build/` directory is generated during build and testing and is not included in version control.
+# Note:
+# The `build/` directory is generated during build and testing. It is not included in version control.
 
 ---
 
