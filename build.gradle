@@ -1,0 +1,42 @@
+plugins {
+    id 'java-library'
+    id 'jacoco' // add JaCoCo plugin
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21) // use Java 21
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter() // optional, many libs are now in mavenCentral
+}
+
+dependencies {
+    // Use JUnit 4
+    testImplementation 'junit:junit:4.12'
+}
+
+test {
+    useJUnit() // ensure JUnit is used
+    testLogging {
+        showStandardStreams = true
+        events "passed", "skipped", "failed"
+    }
+    finalizedBy jacocoTestReport // run coverage after tests
+}
+
+jacoco {
+    toolVersion = "0.8.10" // latest stable version
+}
+
+jacocoTestReport {
+    dependsOn test // tests should run before report
+    reports {
+        xml.required = true
+        csv.required = false
+        html.required = true // nice HTML report
+    }
+}
