@@ -3,8 +3,6 @@
 ## Overview
 CoffeeMaker-JUnit is a Java-based application that simulates a coffee maker machine. The project includes a fully functional system under test (SUT) and comprehensive JUnit tests to ensure reliability and correctness. The application allows users to manage recipes, inventory, and coffee purchases with proper input validation and exception handling.
 
-This project was developed as part of a software engineering course and demonstrates object-oriented design, exception handling, and test-driven development.
-
 ---
 
 ## Features
@@ -13,24 +11,6 @@ This project was developed as part of a software engineering course and demonstr
 - **Coffee Preparation:** Make coffee, process payment, and calculate change.
 - **User Interface:** Console-based interface for interacting with the CoffeeMaker.
 - **Exception Handling:** Handles invalid inputs and inventory/recipe errors gracefully.
-
----
-
-## Project Structure
-
-# CoffeeMaker-JUnit
-
-## Overview
-CoffeeMaker-JUnit is a Java-based application simulating a coffee maker machine. It allows users to manage recipes, inventory, and coffee purchases with proper validation and exception handling. The project includes comprehensive JUnit tests to ensure reliability and correctness.
-
----
-
-## Features
-- **Recipe Management:** Add, edit, and delete coffee recipes.
-- **Inventory Management:** Add and check inventory for coffee, milk, sugar, and chocolate.
-- **Coffee Preparation:** Make coffee, process payment, and calculate change.
-- **Console-based User Interface:** Interact with the CoffeeMaker through a text-based menu.
-- **Exception Handling:** Gracefully handles invalid input, inventory, and recipe errors.
 
 ---
 
