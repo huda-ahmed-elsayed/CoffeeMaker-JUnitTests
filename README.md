@@ -34,3 +34,5 @@ CoffeeMaker-JUnit is a Java-based application simulating a coffee maker machine.
 - Java 8+
 - JUnit 4/5
 - Gradle for build automation
+- JaCoCo for code coverage
+
